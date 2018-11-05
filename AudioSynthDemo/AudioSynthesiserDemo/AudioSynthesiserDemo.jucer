@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="AudioSynthesiserDemo" companyName="JUCE" version="1.0.0"
+              userNotes="Simple synthesiser application." companyWebsite="http://juce.com"
+              defines="PIP_JUCE_EXAMPLES_DIRECTORY=QzpcQ09ERVxKVUNFXGV4YW1wbGVz"
+              projectType="guiapp" id="Fk1FwI" jucerVersion="5.3.2">
+  <MAINGROUP id="fxEq1Q" name="AudioSynthesiserDemo">
+    <GROUP id="{BC8A6609-B1AD-65A8-55BF-251193AB35BA}" name="Source">
+      <FILE id="mmaHxg" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="t3AMjN" name="AudioSynthesiserDemo.h" compile="0" resource="0"
+            file="Source/AudioSynthesiserDemo.h"/>
+    </GROUP>
+    <GROUP id="RLqFFP" name="Assets">
+      <FILE id="llnjtF" name="AudioLiveScrollingDisplay.h" compile="0" resource="0"
+            file="Source/AudioLiveScrollingDisplay.h"/>
+      <FILE id="fdaF9H" name="DemoUtilities.h" compile="0" resource="0" file="Source/DemoUtilities.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="AudioSynthesiserDemo"/>
+        <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="AudioSynthesiserDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="AudioSynthesiserDemo"/>
+        <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="AudioSynthesiserDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="AudioSynthesiserDemo"/>
+        <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="AudioSynthesiserDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <ANDROIDSTUDIO targetFolder="Builds/Android" androidExtraAssetsFolder="C:\CODE\JUCE\examples\Assets">
+      <CONFIGURATIONS>
+        <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="AudioSynthesiserDemo"/>
+        <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="AudioSynthesiserDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+    <XCODE_IPHONE targetFolder="Builds/iOS" customXcodeResourceFolders="C:\CODE\JUCE\examples\Assets">
+      <CONFIGURATIONS>
+        <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="AudioSynthesiserDemo"/>
+        <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="AudioSynthesiserDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+  <LIVE_SETTINGS>
+    <WINDOWS buildEnabled="1"/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
